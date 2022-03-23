@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080"  xml:space="preserve" id="bsbackground" preserveAspectRatio="none">
+    <style>
+    path {
+        stroke-width: 1px;
+    }
+    </style>
+    <g id="bsbackground-lines">
+        <path id="bsbackground-bezier1" stroke="rgb(204, 204, 204)" stroke-width="1" stroke-miterlimit="10" fill="none" vector-effect="non-scaling-stroke" d="M 1417,0 L 1417,736 0,736" />
+        <path id="bsbackground-bezier2" stroke="rgb(204, 204, 204)" stroke-width="1" stroke-miterlimit="10" fill="none" vector-effect="non-scaling-stroke" d="M 1700,-0 L 1700,1080" />
+        <path id="bsbackground-bezier3" stroke="rgb(204, 204, 204)" stroke-width="1" stroke-miterlimit="10" fill="none" vector-effect="non-scaling-stroke" d="M 124,736 L 124,1080" />
+        <path id="bsbackground-bezier4" stroke="rgb(204, 204, 204)" stroke-width="1" stroke-miterlimit="10" fill="none" vector-effect="non-scaling-stroke" d="M 1700,114 L 1920,114" />
+        <path id="bsbackground-bezier5" stroke="rgb(204, 204, 204)" stroke-width="1" stroke-miterlimit="10" fill="none" vector-effect="non-scaling-stroke" d="M 0,168 L 503,168" />
+        <path id="bsbackground-bezier6" stroke="rgb(204, 204, 204)" stroke-width="1" stroke-miterlimit="10" fill="none" vector-effect="non-scaling-stroke" d="M 503,364 L 503,-0" />
+        <path id="bsbackground-bezier7" stroke="rgb(204, 204, 204)" stroke-width="1" stroke-miterlimit="10" fill="none" vector-effect="non-scaling-stroke" d="M 1530,736 L 1700,736" />
+    </g>
+</svg>
