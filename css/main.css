@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  font-size: 62.5%; }
+
+body {
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr 1fr 10%;
+  grid-template-rows: 1fr 1fr 160px;
+  width: 100%;
+  height: 100vh; }
+
+a:visited {
+  color: black; }
+
+a:hover {
+  color: rgba(249, 249, 253, 0.623);
+  transition: 1s; }
+
+.link:hover {
+  color: rgba(20, 20, 20, 0.61);
+  transition: 1s; }
+
+a {
+  color: #101011;
+  transition: 1s; }
+
+.backgroundconteiner {
+  grid-column: 1 / 6;
+  grid-row: 1 / 5;
+  height: 100vh;
+  z-index: -1; }
+
+.background {
+  width: 100%;
+  position: fixed;
+  height: 100vh;
+  z-index: -1; }
+
+/* menus*/
+.izquierdo {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  white-space: nowrap;
+  z-index: 2; }
+
+.derecho {
+  grid-column: 5 / 6;
+  grid-row: 1 / 4;
+  white-space: nowrap;
+  z-index: 2; }
+
+.nav_left {
+  display: flex;
+  background-color: #ffffffcc;
+  transform: rotate(-90deg) translate(-50%);
+  font-size: 15em; }
+
+.nav_right {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.8);
+  transform: rotate(90deg) translate(50%);
+  flex-basis: 100%; }
+
+.nav_right ul {
+  font-size: 25em; }
+
+.menu_general {
+  display: flex;
+  margin: 0.6em;
+  list-style: none;
+  flex-basis: 100%; }
+
+.menu_general li {
+  display: inline-block;
+  margin-left: 4.5rem;
+  text-transform: uppercase; }
+
+.contenido_total {
+  display: grid;
+  grid-column: 1 / 6;
+  grid-row: 1 / 4; }
+
+/*acomodo de logo*/
+.home {
+  position: absolute;
+  width: 100%;
+  height: 100vh; }
+
+.home_logocontainer {
+  grid-column: 2/3;
+  grid-row: 1/2; }
+
+.home_logocontainer img {
+  width: 100%;
+  margin-top: 10px;
+  margin: 0 auto;
+  max-width: 400px; }
+
+/*acomodo del contenido*/
+.contenido {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 261px 1fr 200px;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 100%;
+  margin: auto;
+  list-style: none; }
+
+/* orden de imagen 1 mexico seccion*/
+.imagenes_mexico {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  filter: grayscale(100%);
+  transition: 0.2s; }
+
+.imagenes_mexico:hover {
+  filter: grayscale(0%);
+  transition: 0.2s; }
+
+.imagenes_1 {
+  grid-row: 2;
+  grid-column: 3 / 4;
+  max-width: 250px;
+  margin: 0 auto;
+  position: relative; }
+
+.imagenes_1 ::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  content: ' ';
+  background: rgba(36, 34, 34, 0.322);
+  width: 100%;
+  height: 100%;
+  filter: blur(8px);
+  z-index: -1; }
+
+.imagenes_1 h2 {
+  font-size: 3rem; }
+
+/* acomodo de imagen 2 seccion novias*/
+.imagenes_novias {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  filter: grayscale(100%);
+  transition: .2s; }
+
+.imagenes_novias:hover {
+  filter: grayscale(0%);
+  transition: .2s; }
+
+.imagenes_2 {
+  grid-row: 2;
+  grid-column: 2 / 3;
+  max-width: 250px;
+  margin: 0 auto;
+  position: relative; }
+
+.imagenes_2 ::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  content: ' ';
+  background: rgba(36, 34, 34, 0.322);
+  width: 100%;
+  height: 100%;
+  filter: blur(8px);
+  z-index: -1; }
+
+.imagenes_2 h2 {
+  font-size: 3rem; }
+
+/* acomodo de imagen 3 deccion redy*/
+.imagenes_redy {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  filter: grayscale(100%);
+  transition: 0.2s; }
+
+.imagenes_redy:hover {
+  filter: grayscale(0%);
+  transition: 0.2s; }
+
+.imagenes_3 {
+  grid-row: 2;
+  grid-column: 1 / 2;
+  max-width: 250px;
+  margin: 0 auto;
+  position: relative; }
+
+.imagenes_3 ::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  content: ' ';
+  background: rgba(36, 34, 34, 0.322);
+  width: 100%;
+  height: 100%;
+  filter: blur(8px);
+  z-index: -1;
+  transition: 0.2s; }
+
+.imagenes_3 h2 {
+  font-size: 3rem; }
+
+.contenido_total {
+  display: grid;
+  grid-column: 1 / 6;
+  grid-row: 1 / 4; }
+
+/*acomodo de logo*/
+.home {
+  position: absolute;
+  width: 100%;
+  height: 100vh; }
+
+.home_logocontainer {
+  grid-column: 2/3;
+  grid-row: 1/2; }
+
+.home_logocontainer img {
+  width: 100%;
+  margin-top: 10px;
+  margin: 0 auto;
+  max-width: 400px; }
+
+/*acomodo del contenido*/
+.contenido {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 261px 1fr 200px;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 100%;
+  margin: auto;
+  list-style: none; }
+
+/* orden de imagen 1 mexico seccion*/
+.imagenes_mexico {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  filter: grayscale(100%);
+  transition: 0.2s; }
+
+.imagenes_mexico:hover {
+  filter: grayscale(0%);
+  transition: 0.2s; }
+
+.imagenes_1 {
+  grid-row: 2;
+  grid-column: 3 / 4;
+  max-width: 250px;
+  margin: 0 auto;
+  position: relative; }
+
+.imagenes_1 ::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  content: ' ';
+  background: rgba(36, 34, 34, 0.322);
+  width: 100%;
+  height: 100%;
+  filter: blur(8px);
+  z-index: -1; }
+
+.imagenes_1 h2 {
+  font-size: 3rem; }
+
+/* acomodo de imagen 2 seccion novias*/
+.imagenes_novias {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  filter: grayscale(100%);
+  transition: .2s; }
+
+.imagenes_novias:hover {
+  filter: grayscale(0%);
+  transition: .2s; }
+
+.imagenes_2 {
+  grid-row: 2;
+  grid-column: 2 / 3;
+  max-width: 250px;
+  margin: 0 auto;
+  position: relative; }
+
+.imagenes_2 ::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  content: ' ';
+  background: rgba(36, 34, 34, 0.322);
+  width: 100%;
+  height: 100%;
+  filter: blur(8px);
+  z-index: -1; }
+
+.imagenes_2 h2 {
+  font-size: 3rem; }
+
+/* acomodo de imagen 3 deccion redy*/
+.imagenes_redy {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  filter: grayscale(100%);
+  transition: 0.2s; }
+
+.imagenes_redy:hover {
+  filter: grayscale(0%);
+  transition: 0.2s; }
+
+.imagenes_3 {
+  grid-row: 2;
+  grid-column: 1 / 2;
+  max-width: 250px;
+  margin: 0 auto;
+  position: relative; }
+
+.imagenes_3 ::after {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  content: ' ';
+  background: rgba(36, 34, 34, 0.322);
+  width: 100%;
+  height: 100%;
+  filter: blur(8px);
+  z-index: -1;
+  transition: 0.2s; }
+
+.imagenes_3 h2 {
+  font-size: 3rem; }
+
+.footer {
+  position: relative;
+  z-index: 0;
+  grid-column: 1 / 2;
+  grid-row: 3;
+  margin: 0 auto;
+  max-width: 50px; }
+
+.contenido_footer {
+  display: grid;
+  grid-area: 2/1/3/2; }
+
+.pie {
+  width: 50px; }
+
+.pie_1 {
+  width: 100%; }
+
+.link_redes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center; }
