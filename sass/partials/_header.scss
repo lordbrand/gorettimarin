@@ -1,0 +1,55 @@
+.backgroundconteiner {
+    grid-column: 1 / 6;
+    grid-row: 1 / 5;
+    height: 100vh;
+    z-index: -1;
+}
+
+.background {
+width: 100%;
+position: fixed;
+height: 100vh;
+z-index: -1;
+}
+
+/* menus*/
+.izquierdo {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    white-space: nowrap;
+    z-index: 2;
+}
+.derecho {
+    grid-column: 5 / 6;
+    grid-row: 1 / 4;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.nav_left {
+    display: flex;
+    background-color: #ffffffcc;
+     transform: rotate(-90deg) translate(-50%);
+    font-size: 15em;
+}
+.nav_right{
+    display: flex;
+    background-color: hsla(0, 0%, 100%, .8);
+    transform: rotate(90deg) translate(50%);
+    flex-basis: 100%;
+}
+
+.nav_right ul {
+    font-size: 25em;  
+}
+.menu_general {
+    display: flex;
+    margin: 0.6em;
+    list-style: none;
+    flex-basis: 100%;
+}
+.menu_general li{
+    display: inline-block;
+    margin-left: 4.5rem;
+    text-transform: uppercase;
+}
