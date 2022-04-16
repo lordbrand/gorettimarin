@@ -1,0 +1,13 @@
+$widths: (
+    complete: 100%,
+    three quartes: 75%,
+    half: 50%,
+    one quarter: 25%,
+
+);
+
+@each $var, $val in $widths {
+    .wd-#{$var} {
+        width: #{$val};
+    }
+}
