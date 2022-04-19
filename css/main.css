@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
+  font-family: 'source sans pro', sans-serif;
   text-decoration: none;
   font-size: 62.5%; }
 
@@ -170,11 +171,14 @@ a {
   z-index: -1; }
 
 .imagenes_1 h2 {
-  font-size: 5rem; }
+  font-size: 3rem; }
 
 .imagenes_mexico_texto {
+  text-transform: uppercase;
   display: flex;
   justify-content: center;
+  align-items: center;
+  letter-spacing: 1rem;
   color: #f8f7fc; }
 
 /* acomodo de imagen 2 seccion novias*/
@@ -209,11 +213,14 @@ a {
   z-index: -1; }
 
 .imagenes_2 h2 {
-  font-size: 5rem; }
+  font-size: 3rem; }
 
 .imagenes_novias_texto {
+  text-transform: uppercase;
   display: flex;
   justify-content: center;
+  align-items: center;
+  letter-spacing: 1rem;
   color: #f8f7fc; }
 
 /* acomodo de imagen 3 deccion redy*/
@@ -248,13 +255,16 @@ a {
   transition: 0.2s; }
 
 .imagenes_3 h2 {
-  font-size: 5rem; }
+  font-size: 2rem; }
 
 .imagenes_redy_texto {
+  white-space: nowrap;
+  text-transform: uppercase;
   display: flex;
   justify-content: center;
-  color: #f8f7fc;
-  white-space: nowrap; }
+  align-items: center;
+  letter-spacing: 1rem;
+  color: #f8f7fc; }
 
 @media screen and (max-width: 1200px) {
   body {

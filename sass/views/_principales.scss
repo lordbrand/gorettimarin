@@ -64,11 +64,14 @@
     z-index: -1;
     }
     .imagenes_1 h2 {
-        font-size: 5rem;
+        font-size: 3rem;
     }
    .imagenes_mexico_texto {
+       text-transform: uppercase;
        display: flex;
        justify-content: center;
+       align-items: center;
+       letter-spacing: 1rem;
        color: rgb(248, 247, 252);
    }
 /* acomodo de imagen 2 seccion novias*/
@@ -103,12 +106,15 @@
     z-index: -1;
     }
     .imagenes_2 h2 {
-        font-size: 5rem;
+        font-size: 3rem;
     }
     .imagenes_novias_texto {
+        text-transform: uppercase;
         display: flex;
         justify-content: center;
-        color:  rgb(248, 247, 252);
+        align-items: center;
+        letter-spacing: 1rem;
+        color: rgb(248, 247, 252);
     }
 /* acomodo de imagen 3 deccion redy*/
 .imagenes_redy {
@@ -145,13 +151,16 @@
 
   
     .imagenes_3 h2 {
-        font-size: 5rem;
+        font-size: 2rem;
     }
     .imagenes_redy_texto {
+        white-space: nowrap;
+        text-transform: uppercase;
         display: flex;
         justify-content: center;
-        color:  rgb(248, 247, 252);
-        white-space: nowrap;
+        align-items: center;
+        letter-spacing: 1rem;
+        color: rgb(248, 247, 252);
     }
     @media screen and (max-width: 1200px){
         body {
