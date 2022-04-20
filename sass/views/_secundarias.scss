@@ -1,0 +1,5 @@
+.videos {
+    @extend .imagenes_novias;
+    filter: grayscale(33%);
+
+    }
