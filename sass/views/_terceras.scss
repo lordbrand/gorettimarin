@@ -10,3 +10,57 @@ body{
         grid-area: 1/2/4/5;
 
 }
+.logo_terceras img {
+    width: 100%;
+}
+.espacio {
+    margin-bottom: 10px;
+
+}
+.top {
+    margin-top: 8rem;
+}
+.form_container {
+    margin-top: 18rem;
+    &_form {
+        display: block;
+        padding: 3rem;
+        background-color: #fff;
+        border: 1px solid #ccc;
+    }
+
+}
+.col-xl-6 {
+    flex: 0 0 50%;
+}
+
+.form-style {
+    
+        border: 1px solid #f9f9f9;
+        background-color: #f9f9f9;
+        font-family: TimesNewRomanPSMT,Times-Roman;
+        font-size: 21px;
+        width: 100%;
+    
+}
+.contactin {
+    margin-bottom: 1rem;
+}
+.button_class {
+    
+        border: none;
+        background-color: transparent;
+        padding: 8px;
+        font-family: AccentGraphicMedium;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 3.6px;
+        color: #656573;
+        text-transform: uppercase;
+    
+}
+.col-sm-9 {
+    flex: 0 0 75%;
+    width: 84%;
+    z-index: 11;
+}

@@ -148,7 +148,7 @@
             grid-column: 1 / 2;
             grid-row: 3 / 4;
             white-space: nowrap;
-            z-index: 2;
+            z-index: 6;
         }
     
         .menu_general {
@@ -185,9 +185,9 @@
             grid-column: 1 / 6;
             grid-row: 1 / 4;
             white-space: nowrap;
-            z-index: 2;
+            z-index: 5;
         }   
-        
+
         
         .imagenes_1 {
             max-width: none;
@@ -269,6 +269,7 @@
             align-content: center;
             transform: none;
         }
+        
         .nav_right ul {
             font-size: 17em;
         }
@@ -294,6 +295,7 @@
             white-space: nowrap;
             z-index: 2;
         }   
+        
         
         
         .imagenes_1 {
